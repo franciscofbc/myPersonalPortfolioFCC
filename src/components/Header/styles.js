@@ -17,6 +17,7 @@ export const Menu = styled.ul`
     a {
       text-decoration: none;
       color: ${colors.white};
+      font-size: 24px;
     }
   }
   li:hover {

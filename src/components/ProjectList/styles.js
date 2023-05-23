@@ -5,7 +5,8 @@ export const Content = styled.div`
   background-color: ${colors.blue};
   padding-top: 64px;
   text-align: center;
-  padding-bottom: 516px;
+
+  height: 516px;
 
   h2 {
     color: ${colors.white};
