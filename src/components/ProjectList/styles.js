@@ -19,9 +19,6 @@ export const Content = styled.div`
   ul {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    // display: flex;
-    // justify-content: space-evenly;
-    // flex-wrap: wrap;
     column-gap: 64px;
     row-gap: 24px;
   }

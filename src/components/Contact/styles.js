@@ -31,6 +31,9 @@ export const Content = styled.div`
         align-items: center;
         column-gap: 4px;
       }
+      a:hover {
+        font-weight: 500;
+      }
     }
   }
 
