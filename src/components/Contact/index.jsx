@@ -3,7 +3,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaGithub,
-  FaAt,
+  FaEnvelope,
 } from 'react-icons/fa';
 
 import { Content } from './styles';
@@ -41,7 +41,7 @@ const Contact = () => {
         </li>
         <li>
           <a href="" target="_blank">
-            <FaAt /> Email
+            <FaEnvelope /> Email
           </a>
         </li>
       </ul>
