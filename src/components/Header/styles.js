@@ -12,7 +12,6 @@ export const Menu = styled.ul`
   right: 0;
 
   li {
-    list-style: none;
     padding: 16px 32px;
     a {
       text-decoration: none;

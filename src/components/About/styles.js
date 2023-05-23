@@ -8,16 +8,18 @@ export const Content = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 
   h1 {
+    font-weight: 400;
     font-size: 64px;
     color: ${colors.white};
-    font-weight: 400;
   }
+
   h2 {
+    font-weight: 400;
     font-size: 32px;
     color: ${colors.red};
     font-style: italic;
-    font-weight: 400;
   }
 `;
