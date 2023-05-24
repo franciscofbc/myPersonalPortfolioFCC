@@ -12,13 +12,16 @@ export const Menu = styled.ul`
   right: 0;
 
   li {
-    padding: 16px 32px;
+    padding: 16px 0;
+
     a {
+      padding: 16px 32px;
       text-decoration: none;
       color: ${colors.white};
     }
-  }
-  li:hover {
-    background-color: ${colors.blue};
+
+    &:hover {
+      background-color: ${colors.blue};
+    }
   }
 `;
