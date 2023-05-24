@@ -8,10 +8,14 @@ export const Card = styled.div`
   background-color: ${colors.darkBlue};
   cursor: pointer;
 
+  border-radius: 8px;
+
   > img {
     height: 160px;
     width: 100%;
     margin-bottom: 16px;
+
+    border-radius: 8px 8px 0 0;
   }
 
   h3 {
@@ -64,10 +68,10 @@ export const ModalContent = styled.div`
   .imgProject {
     height: 448px;
     width: 100%;
+    border-radius: 8px;
 
     @media (max-width: 768px) {
       height: 256px;
-      width: 100%;
     }
   }
 
