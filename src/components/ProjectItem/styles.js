@@ -16,11 +16,19 @@ export const Card = styled.div`
 
   h3 {
     color: ${colors.white};
-    font-weight: 400;
+    font-weight: 300;
+
+    .code {
+      color: ${colors.darkBlue};
+      font-weight: 600;
+      transition: color 0.3s ease-out;
+    }
   }
 
-  h3:hover {
-    font-weight: 500;
+  &:hover {
+    .code {
+      color: ${colors.red};
+    }
   }
 `;
 
@@ -54,7 +62,7 @@ export const ModalContent = styled.div`
   }
 
   .imgProject {
-    height: 512px;
+    height: 448px;
     width: 100%;
   }
 

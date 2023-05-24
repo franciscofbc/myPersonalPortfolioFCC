@@ -11,7 +11,11 @@ const ProjectItem = ({ project }) => {
       {project && (
         <Card onClick={() => setIsVisible(!isVisible)}>
           <img src={project.cover} alt="" />
-          <h3>{project.title}</h3>
+          <h3>
+            <span class="code">&lt; </span>
+            {project.title}
+            <span class="code"> /&gt;</span>
+          </h3>
         </Card>
       )}
       {isVisible && (
