@@ -30,9 +30,11 @@ export const Content = styled.div`
         display: flex;
         align-items: center;
         column-gap: 4px;
+
+        transition: transform 0.3s ease-out;
       }
       a:hover {
-        font-weight: 500;
+        transform: translateY(8px);
       }
     }
   }
