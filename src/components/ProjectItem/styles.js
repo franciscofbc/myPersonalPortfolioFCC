@@ -64,6 +64,11 @@ export const ModalContent = styled.div`
   .imgProject {
     height: 448px;
     width: 100%;
+
+    @media (max-width: 768px) {
+      height: 256px;
+      width: 100%;
+    }
   }
 
   > h3 {

@@ -12,9 +12,9 @@ const ProjectItem = ({ project }) => {
         <Card onClick={() => setIsVisible(!isVisible)}>
           <img src={project.cover} alt="" />
           <h3>
-            <span class="code">&lt; </span>
+            <span className="code">&lt; </span>
             {project.title}
-            <span class="code"> /&gt;</span>
+            <span className="code"> /&gt;</span>
           </h3>
         </Card>
       )}
