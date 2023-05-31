@@ -22,4 +22,15 @@ export const Content = styled.div`
     color: ${colors.red};
     font-style: italic;
   }
+
+  h3 {
+    font-weight: 400;
+    font-size: 24px;
+    color: ${colors.red};
+    font-style: italic;
+  }
+
+  .container {
+    margin-top: 32px;
+  }
 `;
