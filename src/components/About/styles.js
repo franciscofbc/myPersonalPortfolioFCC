@@ -10,27 +10,16 @@ export const Content = styled.div`
   align-items: center;
   text-align: center;
 
-  h1 {
+  .about-title {
     font-weight: 400;
     font-size: 64px;
     color: ${colors.white};
   }
 
-  h2 {
+  .about-description {
     font-weight: 400;
     font-size: 32px;
     color: ${colors.red};
     font-style: italic;
-  }
-
-  h3 {
-    font-weight: 400;
-    font-size: 24px;
-    color: ${colors.red};
-    font-style: italic;
-  }
-
-  .container {
-    margin-top: 32px;
   }
 `;

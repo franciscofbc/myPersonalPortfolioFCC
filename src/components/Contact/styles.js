@@ -9,13 +9,13 @@ export const Content = styled.div`
   justify-content: space-evenly;
   text-align: center;
 
-  h2 {
+  .contact-title {
     font-size: 64px;
     font-weight: 400;
     color: ${colors.white};
   }
 
-  ul {
+  .contact-list {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -23,8 +23,8 @@ export const Content = styled.div`
     row-gap: 24px;
     font-size: 24px;
 
-    li {
-      a {
+    .contact-list-item {
+      .item-content {
         color: ${colors.white};
         text-decoration: none;
         display: flex;
@@ -33,7 +33,8 @@ export const Content = styled.div`
 
         transition: transform 0.3s ease-out;
       }
-      a:hover {
+
+      .item-content:hover {
         transform: translateY(8px);
       }
     }
