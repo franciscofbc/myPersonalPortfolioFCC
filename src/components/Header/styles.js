@@ -20,6 +20,7 @@ export const Menu = styled.ul`
       color: ${colors.white};
     }
 
+    transition: background-color 0.3s;
     &:hover {
       background-color: ${colors.blue};
     }

@@ -22,6 +22,7 @@ export const Content = styled.div`
     column-gap: 64px;
     row-gap: 24px;
     font-size: 24px;
+    font-weight: 300;
 
     .contact-list-item {
       .item-content {

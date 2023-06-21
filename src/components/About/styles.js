@@ -17,9 +17,10 @@ export const Content = styled.div`
   }
 
   .about-description {
-    font-weight: 400;
+    font-weight: 300;
     font-size: 32px;
     color: ${colors.red};
-    font-style: italic;
+    // font-style: italic;
+    margin-top: 32px;
   }
 `;
